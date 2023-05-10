@@ -17,6 +17,9 @@ const DailyTask = () => {
         })
         setListData(updatedTask);
     }
+    const clearTaskList = () => {
+        setListData([]);
+    }
     return (
         <>
             <div>this is daily task note</div>
@@ -33,6 +36,9 @@ const DailyTask = () => {
                     </>
                 )
             })}
+            <div>
+                {listData.length >= 1 && <button onClick={clearTaskList}>Clear All</button>}
+            </div>
         </>
     )
 }
