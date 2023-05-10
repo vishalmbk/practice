@@ -32,7 +32,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+form {
+  height: 70vh;
+  width: 40%;
+  border: 2px solid black;
+  margin-left: 30%;
+  box-shadow: #1b54c7;
 }
