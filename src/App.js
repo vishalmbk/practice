@@ -1,9 +1,10 @@
 import './App.css';
-import DailyTask from './DailyTask';
+// import DailyTask from './DailyTask';
+import Parent from './components/CallBack/Parent';
 // import CompoA from './components/copmoA';
 // import Validation from './components/Validation';
 // import Timer from './components/Snippet';
-import ToDoList from './components/ToDoList';
+// import ToDoList from './components/ToDoList';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <Validation />
       <Timer /> */}
       {/* <ToDoList /> */}
-      <DailyTask />
+      {/* <DailyTask /> */}
+      <Parent />
     </div>
   );
 }
